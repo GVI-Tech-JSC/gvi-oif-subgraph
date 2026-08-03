@@ -1,0 +1,6 @@
+type DailyCollateralVesta @entity {
+  id: ID!
+  timestamp: BigInt!
+  depositedGGVI: BigDecimal!
+  depositedGGVIValue: BigDecimal!
+}
